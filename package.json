@@ -1,0 +1,25 @@
+{
+  "peerDependencies": {
+    "react": "^16.6.3"
+  },
+  "name": "@swyx/createcontexts",
+  "version": "1.0.0",
+  "description": "a really small library for a better react context API",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sw-yx/createContexts.git"
+  },
+  "author": "swyx <swyx@dontemail.me@>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sw-yx/createContexts/issues"
+  },
+  "homepage": "https://github.com/sw-yx/createContexts#readme",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
