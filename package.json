@@ -3,7 +3,7 @@
     "react": "^16.6.3"
   },
   "name": "@swyx/createcontexts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "a really small library for a better react context API",
   "main": "index.js",
   "repository": {

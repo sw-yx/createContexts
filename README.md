@@ -2,7 +2,7 @@
 
 a really small library for a better react context API
 
-<detail>
+<details>
 <summary>
 The Problem this solves
 </summary>
@@ -27,14 +27,14 @@ function App() {
 
 gross.
 
-</detail>
+</details>
 
 API
 
 ```js
-import createContexts from '@swyx/createContexts';
+import createContexts from '@swyx/createcontexts';
 
-const [Provider, Context1, Context2, Context3] = createContexts(3);
+export const [Provider, Context1, Context2, Context3] = createContexts(3);
 
 function App() {
   return (
@@ -43,4 +43,6 @@ function App() {
     </Provider>
   );
 }
+
+// use Context1, Context2, Context3 elsewhere
 ```
