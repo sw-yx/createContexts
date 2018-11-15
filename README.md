@@ -1,10 +1,12 @@
 # createContexts
 
-a really small library for a better react context API
+a really small library for a better multiple react context API
 
 <details>
 <summary>
+<b>
 The Problem this solves
+</b>
 </summary>
 
 ```js
@@ -25,9 +27,11 @@ function App() {
 }
 ```
 
-gross.
+Can this be better?
 
 </details>
+
+---
 
 ## API
 
@@ -50,3 +54,8 @@ function App() {
 
 // use Context1, Context2, Context3 elsewhere
 ```
+
+## Other ideas
+
+- generate setters for each context, why not
+- freeze each context since it shoudl be immutable anyway
