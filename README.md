@@ -29,7 +29,11 @@ gross.
 
 </details>
 
-API
+## API
+
+There's only one export. you can name it whatever you like, and you can give any positive integer.
+
+More tests and runtime checks may be needed, and we could explore a babel macros version of this.
 
 ```js
 import createContexts from '@swyx/createcontexts';
